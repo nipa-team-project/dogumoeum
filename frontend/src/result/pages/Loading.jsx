@@ -23,7 +23,7 @@ const Center = styled.div`
     position: absolute;
     width: 377px;
     height: 289.61px;
-    top: 252px;
+    top: 253px;
     // left: 596px;
   }
 
@@ -191,9 +191,8 @@ const Div = styled.div`
 
 const Loading = () => {
   const [loading, setLoading] = useState(true);
-  
+
   useEffect(() => {
-   
     window.scrollTo(0, 0); // 페이지 렌더링 시 맨 위로 스크롤
   }, []);
   return (
